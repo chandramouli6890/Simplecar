@@ -9,9 +9,4 @@ cc_test(
         "@pooya//src/solver",
         "//src:tireslib",
     ],
-    linkopts = [
-        "-lboost_iostreams",
-        "-lboost_system",
-        "-lboost_filesystem",
-        ],
 )
