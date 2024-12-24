@@ -12,8 +12,8 @@ jobs:
 
     - name: Install dependencies
       run: |
-      sudo apt-get update
-      sudo apt-get install -y libboost-iostreams-dev libboost-system-dev libboost-filesystem-dev
+        sudo apt-get update
+        sudo apt-get install -y libboost-iostreams-dev libboost-system-dev libboost-filesystem-dev
 
     - name: Set up Bazel
       uses: bazelbuild/setup-bazelisk@v3
