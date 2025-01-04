@@ -32,11 +32,11 @@ employers. The content is solely for educational purposes.*
 
 ## Setup Development Environment
 
-<a href="./_posts/2025-01-04-introduction-to-tdd-for-vehicle-models-in-cpp.md">Hi Chan</a>
+<a href="./c++/vehicle modeling/tdd/2025/01/04/introduction-to-tdd-for-vehicle-models-in-cpp.html">Link</a>
 
 
 <div id="next-post-container">
-  <button id="next-post-button" style=""><a href="./_posts/2025-01-04-introduction-to-tdd-for-vehicle-models-in-cpp.md">Next Post → </a></button>
+  <button id="next-post-button" style=""><a href="./c++/vehicle modeling/tdd/2025/01/04/introduction-to-tdd-for-vehicle-models-in-cpp.html">Next Post → </a></button>
 </div>
 
 Hi Chan!
