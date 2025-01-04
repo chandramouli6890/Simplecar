@@ -4,3 +4,12 @@ theme: minima
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+# Set baseurl to "" for a user/organization site, or "/repository-name" for project sites
+baseurl: "/Simplecar"
+url: "https://chandramouli6890.github.io"
+
+# Enable posts folder
+collections:
+  posts:
+    output: true
