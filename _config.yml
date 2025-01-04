@@ -1,0 +1,6 @@
+title: "Create a Vehicle Model from Scratch from C++"
+description: "A blog series on building a vehicle model in C++ using Test-Driven Development."
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
