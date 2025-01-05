@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Introduction to Modeling the Dynamics of a Battery Electric Vehicle in C++ 
-author: Chandramouli Gnanasambandham
+title: "Introduction to Modeling the Dynamics of a Battery Electric Vehicle in C++"
+author: "Chandramouli Gnanasambandham"
 date: 2025-01-04
 tags: [C++, Vehicle Modeling, TDD]
 ---
@@ -44,14 +44,9 @@ Simulink for a flexible, code-first approach.
 
 ## Setup Development Environment
 
-<a href="./c++/vehicle modeling/tdd/2025/01/04/introduction-to-tdd-for-vehicle-models-in-cpp.html">Link</a>
-
-
 <div id="next-post-container">
   <button id="next-post-button" style=""><a href="./c++/vehicle modeling/tdd/2025/01/04/introduction-to-tdd-for-vehicle-models-in-cpp.html">Next Post → </a></button>
 </div>
-
-Hi Chan!
 
 link to a page [link](./_posts/2025-01-04-introduction-to-tdd-for-vehicle-models-in-cpp.md)
 
