@@ -1,3 +1,5 @@
+# Welcome to the Simplecar Repository
+
 The primary goal of this repository is to guide you through the process of
 creating a simple model of a battery electric vehicle in C++ using Test-Driven
 Development (TDD). To follow along with the walkthrough, please refer to the
