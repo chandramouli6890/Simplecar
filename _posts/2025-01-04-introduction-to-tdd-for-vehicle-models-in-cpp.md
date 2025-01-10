@@ -100,14 +100,14 @@ Get familiar with setting up a C++ project with bazel ([here](https://bazel.buil
 
 #### Write your first test 
 
-1. Create a new directory
+Create a new directory
 
 ```bash
 mkdir simplecar
 cd simplecar
 ```
 
-2. Define `googletest` as a external dependency in your`./simplecar/WORKSPACE` file
+Define `googletest` as a external dependency in your`./simplecar/WORKSPACE` file
 
 ```bazel
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
@@ -120,7 +120,7 @@ http_archive(
 )
 ```
 
-3. Create your first test by creating the `./simplecar/test/test_hello_world.cpp` file
+Create your first test by creating the `./simplecar/test/test_hello_world.cpp` file
 
 ```cpp
 #include <string>
@@ -133,7 +133,8 @@ TEST(HelloWorld, assertHelloWorld)
 }
 ```
 
-4. Create build rule for your first test in your `./simplecar/test/BUILD.bazel` file
+Create build rule for your first test in your `./simplecar/test/BUILD.bazel` file
+
 ```bazel
 cc_test(
     name = "test_hello_world",
@@ -144,7 +145,8 @@ cc_test(
 )
 ```
 
-5. Run the test. You should see that the test fails.
+Run the test. You should see that the test fails.
+
 ```bash
 $ bazel test //test:test_hello_world --test_output=all
 ...
@@ -161,7 +163,8 @@ Expected: true
 [----------] 1 test from HelloWorld (0 ms total)
 ```
 
-6. Fix the test and re-run. Note the capitalization in **H**ello and **W**orld
+Fix the test and re-run. Note the capitalization in **H**ello and **W**orld
+
 ```cpp
 ...
 TEST(HelloWorld, assertHelloWorld)
@@ -170,7 +173,9 @@ TEST(HelloWorld, assertHelloWorld)
     ASSERT_TRUE(test_str == "Hello World!")
 }
 ```
+
 Now the test should pass
+
 ```bash
 PASSED: //test:test_hello_world (see /home/chandramouli/.cache/bazel/_bazel_chandramouli/7cdf1cc68eba8c4eb7bc299947d9a9be/execroot/__main__/bazel-out/k8-fastbuild/testlogs/test/test_hello_world/test.log)
 ==================== Test output for //test:test_hello_world:
