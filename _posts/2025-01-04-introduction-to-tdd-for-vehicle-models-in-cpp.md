@@ -107,7 +107,7 @@ cd simplecar
 ```
 
 2. Define `googletest` as a external dependency in your`./simplecar/WORKSPACE` file
-```bash
+```bazel
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 http_archive(
@@ -119,7 +119,7 @@ http_archive(
 ```
 
 3. Create your first test by creating the `./simplecar/test/test_hello_world.cpp` file
-```c++
+```cpp
 #include <string>
 #include <gtest/gtest.h>
 
@@ -131,7 +131,7 @@ TEST(HelloWorld, assertHelloWorld)
 ```
 
 4. Create build rule for your first test in your `./simplecar/test/BUILD.bazel` file
-```bash
+```bazel
 cc_test(
     name = "test_hello_world",
     srcs = ["test_hello_world.cpp"],
@@ -159,7 +159,7 @@ Expected: true
 ```
 
 6. Fix the test and re-run. Note the capitilization in **H**ello and **W**orld
-```c++
+```cpp
 ...
 TEST(HelloWorld, assertHelloWorld)
 {
