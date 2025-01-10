@@ -102,10 +102,12 @@ Get familiar with setting up a C++ project with bazel ([here](https://bazel.buil
 
 1. Create a new directory
 ```bash
-mkidir simplecar
+mkdir simplecar
 cd simplecar
 ```
+
 2. Define `googletest` as a external dependency in `./simplecar/WORKSPACE`
+
 ```bash
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
