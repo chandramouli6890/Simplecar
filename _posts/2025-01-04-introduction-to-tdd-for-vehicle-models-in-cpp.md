@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Modeling the Dynamics of a Battery Electric Vehicle in C++"
+title: "Part 1: Introduction to Modeling the Dynamics of a Battery Electric Vehicle in C++"
 author: "Chandramouli Gnanasambandham"
 date: 2025-01-04
 tags: [C++, Vehicle Modeling, TDD]
@@ -201,11 +201,10 @@ development.
 
 ## Next Steps
 
-In the next
-[post](./_posts/2025-01-10-setting-up-simplecar-project-structure.md), we’ll
-set up the foundation for our vehicle model by creating the project structure
-and writing the first test for the Vehicle class. This will give us a starting
-point for building the rest of the system.
+In the next [post](./2025-01-10-setting-up-simplecar-project-structure.md),
+we’ll set up the foundation for our vehicle model by creating the project
+structure and writing the first test for the Vehicle class. This will give us a
+starting point for building the rest of the system.
 
 The source code for the series is available on Github:
 [https://github.com/chandramouli6890/simplecar](https://github.com/chandramouli6890/simplecar)

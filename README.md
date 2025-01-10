@@ -6,3 +6,4 @@ Development (TDD). To follow along with the walkthrough, please refer to the
 linked blog posts provided below.
 
 * [Part 1: Introduction to Modeling the Dynamics of a Battery Electric Vehicle in C++](./_posts/2025-01-04-introduction-to-tdd-for-vehicle-models-in-cpp.md)
+* [Part 2: Setting up the Simplecar Project](./_posts/2025-01-10-setting-up-simplecar-project-structure.md)
