@@ -201,7 +201,9 @@ development.
 
 ## Next Steps
 
-In the next [post](./2025-01-10-setting-up-simplecar-project-structure.md),
+* [Part 2: Setting up the Simplecar Project](./_posts/2025-01-10-setting-up-simplecar-project-structure.md)
+
+In the next [post](https://chandramouli6890.github.io/simplecar/2025/01/10/setting-up-simplecar-project-structure.html),
 we’ll set up the foundation for our vehicle model by creating the project
 structure and writing the first test for the Vehicle class. This will give us a
 starting point for building the rest of the system.
