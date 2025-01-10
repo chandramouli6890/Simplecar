@@ -138,7 +138,7 @@ cc_test(
     ],
 )
 ```
-5. Run the test. You should see that the test fails. 
+5. Run the test. You should see that the test fails.
 ```bash
 $ bazel test //test:test_hello_world --test_output=all
 ...
