@@ -38,6 +38,31 @@ Simulink for a flexible, code-first approach.
 
 ## What is a Vehicle Model?
 
+A vehicle model simulates how a car behaves under various conditions. This
+involves modeling components like:
+
+* **Electric Engine**: Converts electrical energy into torque, propelling the
+  vehicle forward.
+* **Battery**: Stores electrical energy and supplies power to the electric engine
+  for propulsion and auxiliary systems.
+* **Drivetrain**: Transfers power from the electric engine to the wheels.
+* **Brakes**: Convert vehicle's kinetic energy into heat or friction to reduce
+  speed or stop.
+* **Steering**: Allows the driver to guide the vehicle along a desired path. 
+* **Chassis**: Represents the car's frame and handles dynamics like acceleration
+  and braking.
+* **Wheels and Tires**: Provide traction and influence vehicle's motion and
+  handling.
+
+These models are widely used in:
+
+* Automotive design and testing.
+* Simulators (e.g., racing or driver training).
+* Robotics (e.g., autonomous vehicles).
+
+In this blog series we’ll build a simplified vehicle model, while ensuring it
+can be extended later for more complex simulations.
+
 ## Why Test-Driven Development (TDD)?
 
 ## C++ as the Choice for Modeling Dynamical Systems
@@ -56,11 +81,7 @@ that highlights the key reasons behind my argument.
 | **Ease of Collaboration** | <span style="color:red">**Very Hard**</span> <br> Requires proprietary diff and merge tools with limited reliability  | <span style="color:green">**Very Easy**</span> <br> Code reviews are straightforward with integrated diff tools |
 | **Ease of Prototyping**   | <span style="color:green">**Very Easy**</span> <br> Visual, block-based programming that’s intuitive                  | <span style="color:red">**Hard**</span> <br> Text-based programming with a steep learning curve                 |
 
-As you can clearly see, C++ is a powerful choice for simulating dynamic systems due to its:
-
-1. **Performance**: Ideal for real-time or computationally heavy simulations.
-2. **Control**: Gives you low-level access to memory and hardware.
-3. **Flexibility**: Allows custom implementation of numerical methods.
+As you can clearly see, C++ is a powerful choice for simulating dynamic systems.
 
 ## Setup Development Environment
 
