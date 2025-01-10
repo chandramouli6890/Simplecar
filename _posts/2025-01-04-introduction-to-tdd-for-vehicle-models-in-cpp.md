@@ -101,12 +101,14 @@ Get familiar with setting up a C++ project with bazel ([here](https://bazel.buil
 #### Write your first test 
 
 1. Create a new directory
+
 ```bash
 mkdir simplecar
 cd simplecar
 ```
 
 2. Define `googletest` as a external dependency in your`./simplecar/WORKSPACE` file
+
 ```bazel
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
@@ -119,6 +121,7 @@ http_archive(
 ```
 
 3. Create your first test by creating the `./simplecar/test/test_hello_world.cpp` file
+
 ```cpp
 #include <string>
 #include <gtest/gtest.h>
@@ -158,7 +161,7 @@ Expected: true
 [----------] 1 test from HelloWorld (0 ms total)
 ```
 
-6. Fix the test and re-run. Note the capitilization in **H**ello and **W**orld
+6. Fix the test and re-run. Note the capitalization in **H**ello and **W**orld
 ```cpp
 ...
 TEST(HelloWorld, assertHelloWorld)
