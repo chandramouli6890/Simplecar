@@ -107,7 +107,6 @@ cd simplecar
 ```
 
 2. Define `googletest` as a external dependency in `./simplecar/WORKSPACE`
-
 ```bash
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
@@ -130,6 +129,7 @@ TEST(HelloWorld, assertHelloWorld)
     ASSERT_TRUE(test_str == "Hello World!")
 }
 ```
+
 4. Create build rule for your first test in `./simplecar/test/BUILD.bazel`
 ```bash
 cc_test(
@@ -140,6 +140,7 @@ cc_test(
     ],
 )
 ```
+
 5. Run the test. You should see that the test fails.
 ```bash
 $ bazel test //test:test_hello_world --test_output=all
@@ -203,4 +204,8 @@ cloned the GitHub repository for this project.
 
 The source code for the series is available on Github:
 [https://github.com/chandramouli6890/simplecar](https://github.com/chandramouli6890/simplecar)
-Checkout the tag `part1-setup` for this post
+
+To follow along this post, make sure you checkout the following tag
+```bash
+git checkout part1-introduciton
+```
