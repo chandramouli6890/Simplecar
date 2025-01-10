@@ -106,7 +106,7 @@ mkdir simplecar
 cd simplecar
 ```
 
-2. Define `googletest` as a external dependency in `./simplecar/WORKSPACE`
+2. Define `googletest` as a external dependency in your`./simplecar/WORKSPACE` file
 ```bash
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
@@ -118,7 +118,7 @@ http_archive(
 )
 ```
 
-3. Create your first test `./simplecar/test/test_hello_world.cpp`
+3. Create your first test by creating the `./simplecar/test/test_hello_world.cpp` file
 ```c++
 #include <string>
 #include <gtest/gtest.h>
@@ -130,7 +130,7 @@ TEST(HelloWorld, assertHelloWorld)
 }
 ```
 
-4. Create build rule for your first test in `./simplecar/test/BUILD.bazel`
+4. Create build rule for your first test in your `./simplecar/test/BUILD.bazel` file
 ```bash
 cc_test(
     name = "test_hello_world",
