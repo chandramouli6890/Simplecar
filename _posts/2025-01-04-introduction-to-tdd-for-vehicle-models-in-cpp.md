@@ -207,13 +207,10 @@ set up the foundation for our vehicle model by creating the project structure
 and writing the first test for the Vehicle class. This will give us a starting
 point for building the rest of the system.
 
-If you’d like to follow along, make sure you’ve set up your environment and
-cloned the GitHub repository for this project.
-
 The source code for the series is available on Github:
 [https://github.com/chandramouli6890/simplecar](https://github.com/chandramouli6890/simplecar)
 
-To follow along this post, make sure you checkout the following tag
+To follow along this post, make sure you checkout the following git-tag
 ```bash
 git checkout part1-introduciton
 ```
